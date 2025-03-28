@@ -1,19 +1,25 @@
 :root {
-    --Blanco: #fafafb;
-    --Vino: #0c0c1e;
-    --VinoComplemento: #0c0c1e;
-    --Vino-transparente: #0c0c1e;
-    --blue-dark: #c22a2a;
-    --green: #430000;
-    --black: #000000;
+    --morado-oscuro: #4b026e;
+    --morado: #81068f;
+    --lila-oscuro: #a8258c;
+    --lila: #c065c0;
+    --rosa-claro: #e8a0bf;
+    --blanco-crema: #f9e7f0;
+    --dorado-suave: #c9a227;
+    --gris-suave: #e1d9e9;
+
+    --fondo: linear-gradient(to bottom, #f9e7f0, #e8a0bf, #a8258c, #81068f, #531d6c);
+
+
 }
+
 
 body {
     display: flex;
     align-items: center;
     justify-content: center;
     height:100vh;
-    background-color: #00bbf9;
+    background: var(--fondo);
   }
   
   .birthdayCard {
