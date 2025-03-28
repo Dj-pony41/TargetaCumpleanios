@@ -96,7 +96,7 @@ body {
   
   .wrap-deco {
     position: absolute;
-    top:-230px;
+    top:-185px;
     left:-200px;
   }
   
@@ -108,7 +108,7 @@ body {
     border-radius: 50%;
   }
   
-  .decorations:before, .decorations:after, .decorationsTwo:before, .decorationsTwo:after, .decorationsThree:before, .decorationsThree:after {
+  .decorations:before, .decorations:after, .decorationsTwo:before, .decorationsTwo:after, .decorationsThree:before, .decorationsThree:after, .decorationsFour:before, .decorationsFour:after {
     content:"";
     position: absolute;
     border-left: 20px solid transparent;
@@ -144,12 +144,26 @@ body {
     left:355px;
     transform: rotate(-40deg);
   }
+
+  .decorationsFour:before {
+    border-top: 40px solid #e100ff;
+    top: 193px;
+    left: 388px;
+    transform: rotate(-63deg);
+  }
+
+  .decorationsFour:after {
+    border-top: 40px solid #5a3ebe;
+    top: 193px;
+    left: 322px;
+    transform: rotate(63deg);
+  }
   
   .wrap-decoTwo {
     transform: scaleX(-1);
     position: absolute;
-    top:-230px;
-    left:445px; 
+    top:-185px;
+    left:550px; 
   }
   
   .decorationsThree:before {
@@ -164,7 +178,7 @@ body {
     width: 130px;
     height: 5px;
     background-color: #00bbf9;
-    left:60px;
+    left:110px;
     top:213px;
   }
   
