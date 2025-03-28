@@ -10,6 +10,8 @@
 
     --fondo: linear-gradient(to bottom, #f9e7f0, #e8a0bf, #a8258c, #81068f, #531d6c);
 
+    --widt: 350px;
+    --heigh: 450px;
 
 }
 
@@ -24,8 +26,8 @@ body {
   
   .birthdayCard {
     position: relative;
-    width: 250px;
-    height:350px;
+    width: var(--widt);
+    height:var(--heigh);
     cursor: pointer;
     transform-style: preserve-3d;
     transform: perspective(2500px);
@@ -60,8 +62,8 @@ body {
   .cardFront {
     position: relative;
     background-color: #fff;
-    width: 250px;
-    height:350px;
+    width: var(--widt);
+    height:var(--heigh);
     overflow: hidden;
     transform-origin: left;
     box-shadow: inset 100px 20px 100px rgba(0,0,0,.13), 30px 0 50px rgba(0,0,0,0.1);
@@ -225,8 +227,8 @@ body {
   .cardInside {
     position: absolute;
     background-color: #fff;
-    width: 250px;
-    height:350px;
+    width: var(--widt);
+    height:var(--heigh);
     z-index:-1;
     left:0;
     top:0;
